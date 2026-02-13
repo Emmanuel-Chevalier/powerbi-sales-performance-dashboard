@@ -16,15 +16,6 @@ How can decision-makers access a synthetic, decision-ready view of performance w
 
 ---
 
-## 🔍 Key Insights
-
-- Sales declined by 2.8% YoY while profit increased by 24.4%, indicating margin optimization.
-- Consumer segment drives 46% of total profit.
-- Strong seasonality observed in Q4 with peak performance in November.
-- Phones category is the main profit contributor.
-
----
-
 ## 🛠 Technical Stack
 
 - Power BI
@@ -48,6 +39,19 @@ How can decision-makers access a synthetic, decision-ready view of performance w
 > Fully responsive layout designed for executive-level monitoring on smartphones.
 
 ![Sales Dashboard Mobile Overview](assets/sales-dashboard-mobile.png)
+
+---
+
+## 🔍 Key Insights (2015 Executive Snapshot)
+
+Based on the selected year:
+
+- Sales declined by 2.8% YoY, while profit increased by 24.4%, suggesting margin improvement.
+- The Consumer segment accounts for 46% of total profit, making it the primary profit driver.
+- A clear seasonality pattern is observed, with peak performance in November (Q4 concentration).
+- Phones emerge as the leading profit-generating category.
+
+Overall, the dashboard highlights improved profitability despite declining revenue.
 
 ---
 
@@ -128,7 +132,7 @@ IF(
 ✔ Immediate identification of performance gaps (e.g., -2.8% YoY sales decline)  
 ✔ Clear visibility of profit drivers (Phones, Paper, etc.)  
 ✔ Strategic cross-analysis across geography and segments  
-✔ Faster data-driven arbitration  
+✔ Faster data-driven decision-making  
 
 ---
 
