@@ -16,11 +16,20 @@ How can decision-makers access a synthetic, decision-ready view of performance w
 
 ---
 
+## 🔍 Key Insights
+
+- Sales declined by 2.8% YoY while profit increased by 24.4%, indicating margin optimization.
+- Consumer segment drives 46% of total profit.
+- Strong seasonality observed in Q4 with peak performance in November.
+- Phones category is the main profit contributor.
+
+---
+
 ## 🛠 Technical Stack
 
 - Power BI
 - DAX (Advanced Time Intelligence)
-- Data Modeling (Star Schema)
+- Data Modeling (Fact Table + Dedicated Date Dimension)
 - Business Logic Encapsulation
 - KPI Custom Visual Design
 
@@ -79,9 +88,9 @@ To demonstrate my technical proficiency, here are two key implementations from t
 Instead of relying on Power BI's "Auto Date/Time", I developed a custom Calendar table to ensure consistent time intelligence and optimized model performance.
 
 ```dax
-Date Table = 
+Dim_Date = 
 ADDCOLUMNS (
-    CALENDAR ( MIN ( Superstore[Order Date] ), MAX ( Superstore[Order Date] ) ),
+    CALENDAR ( MIN ( Fact_Sales[Order Date] ), MAX ( Fact_Sales[Order Date] ) ),
     "Year", YEAR ( [Date] ),
     "Month", FORMAT ( [Date], "MMM" ),
     "Month Number", MONTH ( [Date] )
