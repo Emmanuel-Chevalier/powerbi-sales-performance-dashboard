@@ -142,13 +142,13 @@ The analysis is based on the Sample Superstore dataset, a standard retail datase
 
 ---
 
-## 📁 Repository Structure
+## 📁 Project Architecture
 
-* **assets/** → Dashboard screenshots (Desktop & Mobile)
-* **pbix/** → Power BI project file
-* **docs/** → Documentation and data sources
+The repository is structured to clearly separate assets, documentation, and analytical development files.
 
-The complete Power BI (.pbix) file is available upon request for professional evaluation.
+- **assets/** → Dashboard screenshots  
+- **docs/** → Business documentation and analytical notes  
+- **pbix/** → Power BI development file (available upon request for professional evaluation)
 
 ---
 
