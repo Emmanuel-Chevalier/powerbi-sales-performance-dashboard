@@ -148,6 +148,8 @@ The analysis is based on the Sample Superstore dataset, a standard retail datase
 * **pbix/** → Power BI project file
 * **docs/** → Documentation and data sources
 
+The complete Power BI (.pbix) file is available upon request for professional evaluation.
+
 ---
 
 ## 👤 Author
