@@ -4,15 +4,25 @@
 
 ## 📌 Project Overview
 
-This project delivers an interactive executive Power BI dashboard designed to provide a concise and actionable view of sales performance, while enabling deep multidimensional analysis (temporal, geographic, and segment-based).
+This project delivers an executive-level Power BI dashboard designed to provide a clear and interactive view of sales performance.
 
-The solution combines advanced DAX modeling, Year-over-Year (YoY) comparison, and executive-oriented UX design to support fast and informed decision-making.
+The dashboard enables:
+
+- Year-over-Year (YoY) performance comparison  
+- Monthly trend analysis  
+- Geographic distribution visualization  
+- Segment and regional performance breakdown  
+- Category-level profit contribution analysis  
+
+The objective is to provide decision-makers with a concise yet drillable performance overview.
 
 ---
 
 ## 🎯 Business Challenge
 
-How can decision-makers access a synthetic, decision-ready view of performance while retaining the ability to drill down into detailed trends?
+How can leadership quickly evaluate overall performance while maintaining visibility into regional, segment, and product-level drivers?
+
+The solution combines high-level KPIs with interactive drill-down capabilities to support structured performance analysis.
 
 ---
 
@@ -55,7 +65,72 @@ Overall, the dashboard highlights improved profitability despite declining reven
 
 ---
 
+## 🧭 Strategic Interpretation & Recommendations
+
+Based on the 2015 performance snapshot:
+
+### 1️⃣ Profitability Resilience Despite Revenue Decline
+
+Despite declining revenue, profitability improved significantly.
+
+This suggests:
+- Improved margin structure  
+- Potential pricing adjustments  
+- Product mix optimization  
+
+**Recommendation:**  
+Investigate high-margin product categories and replicate successful pricing or cost-control strategies across lower-performing segments.
+
+
+### 2️⃣ Segment Concentration Risk
+
+The Consumer segment represents the largest share of total profit.
+
+**Opportunity:**  
+Further scale this segment through targeted marketing and loyalty strategies.
+
+**Risk:**  
+Over-dependence on a single segment may increase exposure if demand shifts.
+
+
+### 3️⃣ Strong Seasonality Effect
+
+Performance peaks in Q4, especially in November.
+
+**Recommendation:**  
+- Optimize inventory planning before Q4  
+- Reinforce promotional campaigns ahead of peak demand  
+- Analyze margin variation during high-volume months  
+
+
+### 4️⃣ Category-Level Profit Drivers
+
+Phones dominate profit contribution.
+
+**Recommendation:**  
+- Evaluate cross-selling opportunities  
+- Assess dependency on specific product categories  
+- Monitor competitive pricing pressure in top-performing categories  
+
+
+### 5️⃣ Regional Performance Imbalance
+
+Regional performance varies significantly, with East and West outperforming South.
+
+**Recommendation:**  
+Investigate:
+- Regional demand patterns  
+- Operational efficiency differences  
+- Local competitive dynamics  
+
+Targeted regional strategy may unlock additional growth potential.
+
+---
+
 ## 🚀 Technical Highlights
+
+### 🔹 Data Model Design
+The model is structured around a centralized sales table supported by a dedicated Date dimension to ensure reliable time intelligence calculations.
 
 ### 🔹 Advanced DAX & Time Intelligence
 Robust Year-over-Year measures with strict filter context control and edge case handling (e.g., missing historical data).
@@ -129,7 +204,7 @@ IF(
 
 ## 📈 Business Impact
 
-✔ Immediate identification of performance gaps (e.g., -2.8% YoY sales decline)  
+✔ Immediate visibility into revenue-profit divergence and performance gaps   
 ✔ Clear visibility of profit drivers (Phones, Paper, etc.)  
 ✔ Strategic cross-analysis across geography and segments  
 ✔ Faster data-driven decision-making  
@@ -148,7 +223,7 @@ The repository is structured to clearly separate assets, documentation, and anal
 
 - **assets/** → Dashboard screenshots  
 - **docs/** → Business documentation and analytical notes  
-- **pbix/** → Power BI development file (available upon request for professional evaluation)
+- **pbix/** → Power BI development file
 
 ---
 
